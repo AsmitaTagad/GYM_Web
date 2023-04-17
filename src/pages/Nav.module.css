@@ -1,5 +1,5 @@
 .main{
-    height: 4rem;
+    height: 5rem;
     width: 100vw;
     
     color: rgb(18, 19, 20);
@@ -7,17 +7,19 @@
     align-items: center;
     justify-content: space-between;
     position: sticky;
+    box-shadow: 0 0 20px black;
 }
 .logo{
-    display: flex;
-    align-items: center;
+    height: 100%;
+    width: 20%;
 
 }
 
 .logo>img{
-    height: 2.45rem;
-    width: 2.45rem;
-    border-radius: 100%;
+    margin-left: 1rem;
+    height: 100%;
+    width: 100%;
+    
 }
 .links{
     display: flex;
@@ -26,6 +28,14 @@
 
 }
 .link{
+    list-style: none;
     text-decoration: none;
     margin-right: 1rem;
+}
+.link>a{
+    font-weight: 650;
+    font-size: 20px;
+    color: rgb(248, 250, 252);
+    text-decoration: none;
+
 }
