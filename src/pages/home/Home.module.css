@@ -1,23 +1,33 @@
 
 .main{
-    /* background-image: url("bgimg.jpg") ; */
     width: 100vw;
     height: 100vh;
-    
+}
 
-}
-.name{
-    text-align: center;
-    width: 100%;
-    color: rgb(7, 250, 250);
-}
+
 .body{
+    
     display: flex;
     align-items: center;
-    
-
+    justify-content: space-between;
 }
 .img>img{
-    width: 30%;
+    border: none;
+    width: 70%;
     height: 50%;
+}
+.white{
+    margin-left: 2rem;
+    width: 50%;
+    font-size: 25px;
+    color: aliceblue;
+}
+.orange{
+    margin-left: 3rem;
+    font-size: 40px;
+    font-weight: 600;
+    color: #f2771a;
+}
+.img{
+    width: 50%;
 }

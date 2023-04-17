@@ -7,8 +7,7 @@ export default function Nav() {
   return (
     <div  className={n.main} >
         <div className={n.logo}>
-          <img src="https://wallpapercave.com/wp/wp2483079.jpg" alt="" />
-          <h1 className={n.nme}>Red Rox</h1>
+          <img src="http://www.thegym.in/img/thegym-logo.jpg" alt="" />
         </div>
         <div className={n.links}>
             <li className={n.link}><NavLink to='/'>Home</NavLink> </li>
