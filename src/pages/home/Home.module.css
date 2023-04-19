@@ -1,33 +1,36 @@
-
-.main{
+.main {
     width: 100vw;
     height: 100vh;
 }
 
 
-.body{
-    
+.body {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.img>img{
+
+.img>img {
     border: none;
     width: 70%;
     height: 50%;
 }
-.white{
+
+.white {
     margin-left: 2rem;
     width: 50%;
     font-size: 25px;
     color: aliceblue;
 }
-.orange{
+
+.orange {
     margin-left: 3rem;
     font-size: 40px;
     font-weight: 600;
     color: #f2771a;
 }
-.img{
+
+.img {
     width: 50%;
 }

@@ -1,18 +1,15 @@
-
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Nav from './pages/Nav';
-import Home from './pages/Home';
-import Product from './pages/Product';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Login from './pages/Login';
-import Register from './pages/Register'
-
-
-
+import { Home, Contact, About, Login, Register, Product, Nav } from './pages/Main'
 
 function App() {
+  // const PathObj = [
+  //   { elementName: "Home", elementPath: "/" },
+  //   { elementName: "About", elementPath: "/about" },
+  //   { elementName: "Contact", elementPath: "/contact" },
+  //   { elementName: "Login", elementPath: "/login" },
+
+  // ]
   return (
 
     <div className='container'>
@@ -25,6 +22,8 @@ function App() {
         <Route path='/Login' element={<Login />} />
         <Route path='/Register' element={<Register />} />
       </Routes>
+
+     
 
     </div>
   );

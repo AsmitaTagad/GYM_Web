@@ -1,0 +1,51 @@
+.footer {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #050505;
+    color:#fff;
+    padding: 50px;
+    font-size: 14px;
+  }
+  
+  .about h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+  }
+  
+  .fa i{
+    margin-right: 10px;
+    font-size: 48px;
+    border-radius: 50%;
+    color: #d22828;
+    background-color: #fff;
+  }
+  
+  .service span,
+  .program span {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 50px 0;
+    color:#fff;
+  }
+  
+  .par{
+    width:100%;
+    height:100%;
+   background-color:white;
+   color:#ee0404;
+  }
+  
+  
+  
+  

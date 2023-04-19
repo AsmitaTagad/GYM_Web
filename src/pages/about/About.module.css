@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.container{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin: 2rem;
+}
+
+.left{
+    margin: 1rem;
+    padding: 2rem;
+}
+
+

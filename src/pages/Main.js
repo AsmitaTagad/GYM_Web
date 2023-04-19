@@ -4,9 +4,11 @@ import Home from './home/Home';
 import Login from './Login/Login';
 import Product from './Product/Product';
 import Contact from './contact/Contact';
-import Register from './Register/Register'
+import Register from './Register/Register';
+import Footer from './footer/Footer';
 
 
 export {
-    Nav,Home,Product,About,Contact,Login,Register
+    Nav,Home,Product,About,Contact,Login,Register,Footer
 }
+

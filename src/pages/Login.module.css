@@ -1,15 +1,16 @@
-.main{
+.main {
     display: flex;
     height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
 }
-.body{
+
+.body {
     margin-top: 1.5rem;
     width: 35%;
     height: 50%;
-    background-color:#f2771a;
+    background-color: #f2771a;
     border: none;
     outline: none;
     box-shadow: 0 0 20px black;
@@ -17,27 +18,32 @@
     padding: 2rem 2rem;
 
 }
-.input{
+
+.input {
     height: 2rem;
     outline: none;
     box-shadow: 0 0 5px black;
     border: none;
     border-radius: 10px;
-    width:98%;
+    width: 98%;
     padding: .5rem;
 }
-.lebel{
+
+.lebel {
     font-weight: 650;
     font-size: 20px;
 }
-.btns{
+
+.btns {
     display: flex;
     justify-content: space-evenly;
 }
-.btns>a{
+
+.btns>a {
     width: 100%;
 }
-.btn{
+
+.btn {
     font-size: 16px;
     font-weight: 550;
     border: none;
@@ -48,14 +54,16 @@
     color: aliceblue;
     background-color: black;
 }
-.main_bg{
+
+.main_bg {
     display: flex;
     height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
 }
-.btn_r{
+
+.btn_r {
     margin-left: 2.8rem;
     font-size: 16px;
     font-weight: 550;
@@ -68,26 +76,29 @@
     background-color: black;
     margin-top: 1.5rem;
 }
-.lebel_r{
+
+.lebel_r {
     margin-left: 2.8rem;
     font-weight: 600;
     font-size: 16px;
 }
-.input_r{
+
+.input_r {
     margin-left: 2.8rem;
     height: 1.5rem;
     outline: none;
     box-shadow: 0 0 5px black;
     border: none;
     border-radius: 10px;
-    width:80%;
+    width: 80%;
     padding: .3rem;
 }
-.body_r{
+
+.body_r {
     margin-top: 1.5rem;
     width: 35%;
     height: 75%;
-    background-color:#f2771a;
+    background-color: #f2771a;
     border: none;
     outline: none;
     box-shadow: 0 0 20px black;
