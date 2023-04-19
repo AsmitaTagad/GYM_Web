@@ -1,9 +1,17 @@
 .App {
   text-align: center;
 }
-
+.main_bgc{
+  min-height: 100%;
+  background-color: black;
+}
 .container{
-  background-image: url("https://wallpapercave.com/wp/wp2333010.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: black url("https://wallpapercave.com/wp/wp2333010.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 100;
+
+  
+
 }
