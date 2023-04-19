@@ -16,8 +16,8 @@ export default function About() {
             allowfullscreen
           ></iframe>
         </div>
-        <div>
-          <h1>
+        <div className={a.para}>
+          <p>
             Being physically and mentally fit is necessary to live a happy, long
             life. Exercise is one of the best ways to keep a person healthy.
             Hence, it is always best to find a workout routine no matter how
@@ -25,19 +25,19 @@ export default function About() {
             individuals realized the essence of workout. Specifically, having a
             workout routine will give an individual the greatest physical,
             mental, and social benefits.
-          </h1>
+          </p>
         </div>
       </div>
       <div className={a.right}>
         <div>
-          <h1>
+          <p className={a.para}>
             Accordingly, exercise will help you increase energy levels, reduce
             chronic disease risk, lose weight, and help improve brain health and
             memory. With such benefits, you probably will love to do workout
             routines soon. Luckily, you don’t need to do it yourself as various
             personal trainers, or professional fitness coaches provide the help
             you need. And joining fitness classes is just at your fingertips.
-          </h1>
+          </p>
         </div>
         <div className={a.Rvideo}>
           <iframe

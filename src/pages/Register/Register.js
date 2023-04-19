@@ -1,13 +1,18 @@
-import React,{useState} from 'react'
-import r from '../Login.module.css'
+import React, { useState } from 'react';
+
 
 export default function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [number, setNumber] = useState('');
   const [Password, setPassword] = useState('');
+  const [user] = useState([]);
 
-  const [user, setUser] = useState([]);
+  //validation
+  // const [userName, setNameisValid] = useState(true);
+  // const [userPass, setPassisValid] = useState(true);
+  // const [userNum, setNumberisValid] = useState(true);
+  // const [userEmail, setEmailisValid] = useState(true);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -20,50 +25,55 @@ export default function Register() {
     });
     // console.log(user)
     localStorage.setItem('user', JSON.stringify(user));
+
+    setName("");
+    setEmail('');
+    setNumber("");
+    setPassword("");
   }
-  
+
   return (
-    <div className={r.main_bg}>
-    <div className={r.body_r}>
-      <form onSubmit={handleSubmit}>
-        <p className={r.lebel_r}>Name</p>
-        <input
-          type="text"
-          placeholder="Enter Name"
-          value={name}
-          className={r.input_r}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <p className={r.lebel_r}>Email</p>
-        <input
-          type="email"
-          placeholder="Enter Email"
-          value={email}
-          className={r.input_r}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <p className={r.lebel_r}>Phone Number</p>
-        <input
-          type="text"
-          placeholder="Enter Phone no"
-          value={number}
-          className={r.input_r}
-          onChange={(e) => setNumber(e.target.value)}
-        />
-        <p className={r.lebel_r}>Create Password</p>
-        <input
-          type="Password"
-          placeholder="Choose Password"
-          value={Password}
-          className={r.input_r}
-          onChange={(e) => setPassword(e.target.value)}
-        />
+    <div>
+      <div>
+        <form onSubmit={handleSubmit}>
+          <p >Name</p>
+          <input
+            type="text"
+            placeholder="Enter Name"
+            value={name}
+        
+            onChange={(e) => setName(e.target.value)}
+          />
+          <p >Email</p>
+          <input
+            type="email"
+            placeholder="Enter Email"
+            value={email}
+       
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <p >Phone Number</p>
+          <input
+            type="text"
+            placeholder="Enter Phone no"
+            value={number}
+            onChange={(e) => setNumber(e.target.value)}
+          />
+          <p >Create Password</p>
+          <input
+            type="Password"
+            placeholder="Choose Password"
+            value={Password}
+           
+            onChange={(e) => setPassword(e.target.value)}
+          />
 
-        <input type="submit" className={r.btn_r} />
+          <input type="submit" />
+        
+          {/* <button className={r.btn_r}>SignUp</button> */}
+        </form>
 
-        {/* <button className={r.btn_r}>SignUp</button> */}
-      </form>
+      </div>
     </div>
-  </div>
-  )
+  );
 }
