@@ -1,12 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Nav from './pages/Nav';
-import Home from './pages/Home';
-import Product from './pages/Product';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Login from './pages/Login';
-import Register from './pages/Register'
+import Nav from '../src/Components/Nav bar/Nav'
+import Home from './pages/Home/Home'
+import Product from './pages/Course/Product';
+import About from './pages/About/About';
+import Contact from './pages/Contact Us/Contact';
+import Login from './pages/Join Us/Login';
+import Register from './pages/Join Us/Register';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -23,7 +24,7 @@ function App() {
           <Route path='/Login' element={<Login />} />
           <Route path='/Register' element={<Register />} />
         </Routes>
-
+        <Footer/>
       </div>
     </div>
   );

@@ -40,12 +40,19 @@
   }
   
   .contactInfo {
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
   
   .address {
+    height: 90%;
+    margin-bottom: 1rem;
+    background-color: #0a0a0a;
+    border: 1px solid #f2771a;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #f2771a;
     border: 2px #fff;
     padding: 4px;
   }
@@ -58,35 +65,51 @@
   }
   
   .QueryForm {
-    padding: 1px;
+    margin-left: 3rem;
+    width: 20%;
+    height: 90%;
+    margin-bottom: 1rem;
+    background-color: #0a0a0a;
+    border: 1px solid #f2771a;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #f2771a;
+    border: 2px #fff;
+    padding: 4px;
   }
   
   .QueryForm >h2 {
     margin: 3px;
-    padding: 2px;
+    padding: .5rem;
   }
-  
+  .inputField{
+    margin-left: 10%;
+  }
   input>
   textarea>
   label {
+    padding: .5rem;
     width: 50%;
     margin-top: 3px;
     font-family: sans-serif;
   }
-  
+ 
   .inputField > input {
+    padding: .5rem;
     display: block;
-    height: 18px;
-    padding: 2px;
+    height: 1.5rem;
+    width: 60%;
     border-radius: 5px;
     opacity: 0.4;
   }
   
   .inputField> label {
+    padding: .5rem;
     margin-top: 3rem;
     font-family: sans-serif;
   }
   .inputField >textarea {
+    width :60%;
+    padding: .5rem;
     opacity: 0.4;
     font-family: sans-serif;
     border-radius: 5px;
@@ -115,6 +138,10 @@
   /* //mobile dimention  */
   
    @media screen and (max-width: 600px) {
+    .inputField{
+      margin-left: 10%;
+    }
+
     .contactInfo {
       display: inline;
       justify-content: space-around;
@@ -126,4 +153,16 @@
       height: 300px;
       width: 340px;
     }
+    .QueryForm{
+      
+      width:80%;
+    }
+    .address{
+      margin-left: 2rem;
+      width:80%;
+    }
+    .map{
+      width: 98%;
+    }
+    
   } 

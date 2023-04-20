@@ -1,17 +1,10 @@
 .App {
   text-align: center;
 }
-.main_bgc{
-  min-height: 100%;
-  background-color: black;
-}
+
 .container{
-  background: black url("https://wallpapercave.com/wp/wp2333010.jpg") ;
+  background: black url("https://img5.goodfon.com/wallpaper/nbig/1/75/poza-muscle-myshtsy-shtanga-press-atlet-gym-bodibilder-abs-1.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  z-index: 100;
-
-  
-
 }
