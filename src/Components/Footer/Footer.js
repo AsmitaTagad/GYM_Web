@@ -1,6 +1,8 @@
 import React from 'react'
-import f from './Footer.module.css'
+import f from './Footer.module.css';
 import {FaFacebookSquare,FaInstagram,FaTwitterSquare} from "react-icons/fa";
+
+
 
 export default function Footer() {
     return (
@@ -9,6 +11,7 @@ export default function Footer() {
                 <img src="https://cdn.dribbble.com/users/23569/screenshots/1916746/gym_peak_logo.png" alt="" />
             </div>
             <div className={f.icons}>
+
     
                <div className={f.social}>
                 <a href="https://www.facebook.com/asmita.tagad" className={f.logo} icons={FaFacebookSquare}><FaFacebookSquare size={30}/></a>
@@ -22,7 +25,6 @@ export default function Footer() {
                 <a href="www.twitter.com" className={f.logo} icons={FaTwitterSquare}><FaTwitterSquare size={30}/></a>
                 <span className={f.o}>Contact On twitter</span>
                </div>
-
 
             </div>
             <div className={f.txt}>

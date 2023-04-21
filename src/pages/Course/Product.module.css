@@ -44,7 +44,7 @@
 }
 .vcontrainer{
     margin-top: 1rem;
-    width: 100vw;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -86,8 +86,8 @@
 }
 @media  screen  and (max-width:500px) {
     .vcontrainer{
-        margin: 1rem;
-        width: 100vw;
+        margin-left: 10vw;
+        width: 80vw;
         display: block;  
     }
     .txt>span{

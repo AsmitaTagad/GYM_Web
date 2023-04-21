@@ -40,11 +40,14 @@
     box-sizing: border-box;
 }
 
+
+
 .social {
     display:flex;
     align-items: center;
     margin-top: 0.5rem;
 }
+
 
 @media (max-width:490px) {
     .gym>img{

@@ -51,8 +51,6 @@ export default function Register() {
     }
   }
 
-  
-
   return (
     <>
       <div className={r.main}>
