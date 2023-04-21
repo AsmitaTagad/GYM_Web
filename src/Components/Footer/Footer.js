@@ -1,5 +1,8 @@
 import React from 'react'
-import f from './Footer.module.css'
+import f from './Footer.module.css';
+import {FaFacebookSquare,FaInstagram,FaTwitterSquare} from "react-icons/fa";
+
+
 
 export default function Footer() {
     return (
@@ -8,17 +11,20 @@ export default function Footer() {
                 <img src="https://cdn.dribbble.com/users/23569/screenshots/1916746/gym_peak_logo.png" alt="" />
             </div>
             <div className={f.icons}>
-                <div className={f.logos}>
-                    <img src="https://i.pinimg.com/736x/7c/cb/40/7ccb40e2fa23d39346cc9dc8691d68b3.jpg" alt="" className={f.logo} />
-                    <span className={f.o}>FaceBook Us</span></div>
-                <div className={f.logos}>
-                    <img src="https://tse3.mm.bing.net/th?id=OIP.gOAtLIyfMTNrYLedH7l5qQHaHa&pid=Api&P=0" alt="" className={f.logo} />
-                    <span className={f.o}>Instagram Us</span></div>
-                <div className={f.logos}>
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.XZMQynreehNOD_7_tI8KFQHaHa&pid=Api&P=0" alt="" className={f.logo} />
-                    <span className={f.o}>Whatsapp Us</span></div>
 
-
+    
+               <div className={f.social}>
+                <a href="https://www.facebook.com/asmita.tagad" className={f.logo} icons={FaFacebookSquare}><FaFacebookSquare size={30}/></a>
+                <span className={f.o}>Contact On facebook</span>
+               </div>
+               <div className={f.social}>
+                <a href="https://www.instagram.com/its_a_smita07/" className={f.logo} icons={FaInstagram}><FaInstagram size={30}/></a>
+                <span className={f.o}>Contact On Instagram</span>
+               </div>
+               <div className={f.social}>
+                <a href="www.twitter.com" className={f.logo} icons={FaTwitterSquare}><FaTwitterSquare size={30}/></a>
+                <span className={f.o}>Contact On twitter</span>
+               </div>
 
             </div>
             <div className={f.txt}>

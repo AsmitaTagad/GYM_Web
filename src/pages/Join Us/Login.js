@@ -51,15 +51,6 @@ export default function Register() {
     }
   }
 
-  // If user is already signed in, redirect to the homepage
-
-  // useEffect(() => {
-  //   const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
-  //   if (loggedInUser) {
-  //     nav("/");
-  //   }
-  // }, [nav]);
-
   return (
     <>
       <div className={r.main}>
