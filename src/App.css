@@ -3,7 +3,8 @@
 }
 
 .container{
-  background-image: url("https://wallpapercave.com/wp/wp2333010.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: black url("https://img5.goodfon.com/wallpaper/nbig/1/75/poza-muscle-myshtsy-shtanga-press-atlet-gym-bodibilder-abs-1.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
