@@ -1,0 +1,168 @@
+ /* *{
+    margin: 0px;
+    padding: 0px;
+  }
+   */
+  .header {
+    margin: 2rem;
+    padding: 1rem;
+  }
+  
+  .header > h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header > h3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header > p {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .header > h3 {
+    color: #f2771a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .header > h1 {
+    color: #f2771a;
+    font-family:fantasy;
+  }
+  
+  .container {
+    color: #fff;
+  }
+  
+  .contactInfo {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .address {
+    height: 90%;
+    margin-bottom: 1rem;
+    background-color: #0a0a0a;
+    border: 1px solid #f2771a;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #f2771a;
+    border: 2px #fff;
+    padding: 4px;
+  }
+  
+  .map{
+    opacity: 0.7;
+    height: 300px;
+    width: 440px;
+    margin-bottom: 4rem;
+  }
+  
+  .QueryForm {
+    margin-left: 3rem;
+    width: 20%;
+    height: 90%;
+    margin-bottom: 1rem;
+    background-color: #0a0a0a;
+    border: 1px solid #f2771a;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #f2771a;
+    border: 2px #fff;
+    padding: 4px;
+  }
+  
+  .QueryForm >h2 {
+    margin: 3px;
+    padding: .5rem;
+  }
+  .inputField{
+    margin-left: 10%;
+  }
+  input>
+  textarea>
+  label {
+    padding: .5rem;
+    width: 50%;
+    margin-top: 3px;
+    font-family: sans-serif;
+  }
+ 
+  .inputField > input {
+    padding: .5rem;
+    display: block;
+    height: 1.5rem;
+    width: 60%;
+    border-radius: 5px;
+    opacity: 0.4;
+  }
+  
+  .inputField> label {
+    padding: .5rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+  }
+  .inputField >textarea {
+    width :60%;
+    padding: .5rem;
+    opacity: 0.4;
+    font-family: sans-serif;
+    border-radius: 5px;
+  }
+  
+  .contactDetail > h5{
+      font-family: sans-serif;
+  }
+  
+  .inputField>button {
+    border: none;
+    border-radius: 5px ;
+    padding:.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #f2771a;
+    color: #0a0a0a;
+    font-weight: 600;
+  }
+  
+  .contactDetail {
+    padding: 12px;
+    margin: 10px;
+  }
+  
+  /* //mobile dimention  */
+  
+   @media screen and (max-width: 600px) {
+    .inputField{
+      margin-left: 10%;
+    }
+
+    .contactInfo {
+      display: inline;
+      justify-content: space-around;
+      align-items: center;
+      width: 2rem;
+    }
+    .map {
+      opacity: 0.7;
+      height: 300px;
+      width: 340px;
+    }
+    .QueryForm{
+      
+      width:80%;
+    }
+    .address{
+      margin-left: 2rem;
+      width:80%;
+    }
+    .map{
+      width: 98%;
+    }
+    
+  } 

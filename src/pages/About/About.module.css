@@ -1,0 +1,53 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+.up{
+    height:100vh;
+    width: 100vw;
+}
+.down{
+    height: 100vh;
+    width: 100vw;
+}
+.content{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content>p{
+    background-color: #808080;
+    color:white;
+    font-size: 15px;
+    padding :2rem;
+}
+.content>span{
+    font-weight: 650;
+    color: #f2771a;
+}
+
+
+
+/* For tablet */
+@media (max-width:620px) {
+    .up{
+        height: 50%;
+        
+    }
+    .down{
+        height: 50%;
+
+    }
+    .container{
+
+        display: block;
+    }
+    /* .content{
+        height: 25%;
+    } */
+    
+}
